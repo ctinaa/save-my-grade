@@ -34,14 +34,17 @@ body {
 
 
 
-h1 {
-  color: #efecec;
+h1, h2 {
+  color: white;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 50px;
   font-weight: 400;
   margin-top: 20px;
-  font-family: font-family: 'Kotta One', serif;
+  font-family: Arial;
+
+  position: relative;
+ /* font-family: font-family: 'Kotta One', serif;*/
 }
 
 .button {
@@ -73,3 +76,4 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }*/
+
