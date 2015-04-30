@@ -42,6 +42,8 @@ h1{
   font-weight: 100; 
   border-radius: 5px; 
   line-height: 1em;
+  height: 16%;
+  width: 61%;
 }
 
  h2 {
@@ -104,7 +106,7 @@ h1{
 
 .explain {
   font-style: italic;
-  color: white; 
+   color: #ffffff;
 }
 
 /*.button:hover {
@@ -125,4 +127,88 @@ h1{
   text-align: center;
   text-transform: uppercase;
 }*/
+
+
+
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("desk.jpg");
+
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("nl.jpg");
+    height: 40%;
+    min-height: 30%;   
+
+}
+
+.cd-scrolling-bg cd-color-2 {
+  position: center;
+  background-color: white;
+  min-height: 30%;
+  opacity: 0.5;
+  position:relative;
+  
+  background: rgba(0,0,0,0.5);
+
+}
+<!-- background: rgba(255,255,255,.5) -->
+
+.cd-fixed-bg cd-bg-2 {
+ min-height: 20%;
+}
+
+.cd-scrolling-bg cd-color-3 {
+
+  position: center;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+   min-height: 50%;
+  opacity: 0.5;
+  position:relative;
+  background: rgba(255,255,255,.5);
+}
+
+
+.cd-scrolling-bg cd-color-4 {
+
+  position: center;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  min-height: 10%;
+
+  position:relative;
+  background: rgba(255,255,255,.5);
+
+ 
+
+}
+
+.cd-fixed-bg cd-bg-4 {
+ min-height: 20%;
+}
+ 
+.cd-scrolling-bg {
+  min-height: 50%;
+  opacity: 0.5;
+  position:relative;
+  background: rgba(255,255,255,.5);
+}
+
+.cd-container{
+font-family: 'Slabo 27px', serif;
+
+  /*background : rgba( #f3f3f3, 0.75 );
+  box-shadow : 0 1px 0.125em #333; */
+  
+} 
 
